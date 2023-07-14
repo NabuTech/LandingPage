@@ -10,6 +10,11 @@
     font-family: "OCR A Std", "Courier New", monospace;
   }
 
+  @font-face {
+    font-family: 'Square Sans Serif 7';
+    src: url('square_sans_serif_7.ttf') format('truetype');
+    }
+
   body {
     margin: 0;
     padding: 0;
@@ -69,6 +74,23 @@
     color: var(--color-primary);
   }
 
+  h1 span {
+    /* Existing styles */
+    /* ... */
+    
+    /* Red/black/silver color scheme */
+    color: var(--color-critical);
+    font-family: 'Square Sans Serif 7', sans-serif;
+    letter-spacing: 3px;
+    
+    /* Styling effects */
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 4px var(--color-secondary);
+  }
+  
+  
+  
+  
   p {
     font-size: 24px;
     margin-bottom: 60px;
