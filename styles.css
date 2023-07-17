@@ -1,14 +1,14 @@
 :root {
-    --color-primary: rgb(0,255,0);
-    --color-secondary: rgb(192,192,192);
-    --color-dark-background: rgb(75,0,130);
-    --color-light-background: rgb(224,224,224);
-    --color-highlight: rgb(0, 249, 255);
-    --color-notification: rgb(99, 0, 171);
-    --color-interactive: rgb(255, 0, 255);
-    --color-critical: rgb(255, 0, 0);
-    font-family: "OCR A Std", "Courier New", monospace;
-  }
+  --color-primary: rgb(255, 255, 0);
+  --color-secondary: rgb(192, 192, 192);
+  --color-dark-background: rgb(0, 0, 51);
+  --color-light-background: rgb(224, 224, 224);
+  --color-highlight: rgb(0, 255, 255);
+  --color-notification: rgb(75, 0, 130);
+  --color-interactive: rgb(255, 0, 255);
+  --color-critical: rgb(255, 0, 0);
+  font-family: "OCR A Std", "Courier New", monospace;
+}
 
   @font-face {
     font-family: 'Square Sans Serif 7';
@@ -72,20 +72,16 @@
     font-size: 48px;
     margin-bottom: 40px;
     color: var(--color-primary);
+    flex-direction: column;
   }
 
   h1 span {
-    /* Existing styles */
-    /* ... */
-    
-    /* Red/black/silver color scheme */
-    color: var(--color-critical);
+    color: var(--color-interactive);
     font-family: 'Square Sans Serif 7', sans-serif;
     letter-spacing: 3px;
-    
-    /* Styling effects */
-    -webkit-text-stroke: 1px black;
-    text-shadow: 2px 2px 4px var(--color-secondary);
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 2px 2px 4px var(--color-highlight);
   }
   
   
