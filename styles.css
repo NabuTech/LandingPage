@@ -72,7 +72,7 @@
     font-size: 48px;
     margin-bottom: 40px;
     color: var(--color-primary);
-    flex-direction: column;
+    
   }
 
   h1 span {
