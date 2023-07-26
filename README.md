@@ -4,7 +4,7 @@ Welcome to the NabuTech Landing Page repository! This repository contains the so
 
 ## Preview
 
-![Preview](path/to/preview-image.png)
+https://nabutech.github.io/LandingPage/
 
 ## Technologies Used
 
